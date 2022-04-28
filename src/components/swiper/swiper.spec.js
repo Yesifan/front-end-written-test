@@ -1,10 +1,8 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/vue';
+import { delay } from '../../lib/utils'
 import Swiper from './index.vue';
 
-const delay = (time) => new Promise((resolve) => {
-  setTimeout(resolve, time)
-})
 
 describe('swiper.vue', () => {
   it('has move', async () => {

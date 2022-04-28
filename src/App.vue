@@ -1,15 +1,18 @@
 <template>
   <div id="app">
+    <Swiper/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/hello-world/index.vue'
+import Swiper from './components/swiper/index.vue'
 
 export default {
   name: 'App',
   components: {
+    Swiper,
     HelloWorld
   }
 }

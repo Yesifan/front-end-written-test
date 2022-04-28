@@ -1,19 +1,28 @@
 <template>
   <div id="app">
+    <HelloWorld msg="Welcome to Interview"/>
     <Swiper/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="message">
+      show message
+    </button>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/hello-world/index.vue'
 import Swiper from './components/swiper/index.vue'
+import message from './components/message/index.js'
 
 export default {
   name: 'App',
   components: {
     Swiper,
     HelloWorld
+  },
+  methods:{
+    message(){
+      message("show the message!")
+    }
   }
 }
 </script>

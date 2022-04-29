@@ -8,6 +8,9 @@
 对于比较复杂的题目，建议候选人每实现一个功能上的里程碑都提交一次commit，方便面试官观察候选人的实现思路和思考习惯。
 ### JavaScript
 按题目说明编写需要的 class 或 function 。
+
+- `计算补集` - [/lib/getSet](./src/lib/getSet/index.js)
+- `计算相邻单词` - [/lib/getWordNeighors](./src/lib/getWordNeighors/index.js)
 - `深拷贝` - [/lib/deepcopy](./src/lib/deepcopy/index.js)
 - `Promise` - [/lib/promise](./src/lib/promise/index.js)
 

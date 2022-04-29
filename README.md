@@ -5,6 +5,9 @@
 
 候选人可以导入一些辅助编程的基础库，比如 TypeScirt, Less, Sass，对于 Vue 也可以导入 vuex, class component 或者 composition api 等库。
 ## 题目
+### JavaScript
+按题目说明编写需要的 class 或 function 。
+- `Promise` - [/lib/promise](./src/lib/promise/index.js)
 
 ### Vue
 使用Vue完成组件的开发, 可以运行 `npm run serve` 进行调试，[App.vue](./src/App.vue) 可以任意修改。

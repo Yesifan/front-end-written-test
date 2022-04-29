@@ -1,11 +1,14 @@
-# front-end-intervieww
-该笔试不仅考察候选人解决问题的能力， 同时也考察代码规范，Git的使用，需求理解，样式设计等其他方面的能力。
+[gitee]:https://gitee.com/yesifan66/front-end-interview
+[github]:https://github.com/Yesifan/front-end-written-test
 
-比如变量的命名习惯，`commit` 的提交等。
+# front-end-intervieww
+该笔试不仅考察候选人解决问题的能力， 同时也考察代码规范，Git的使用，需求理解，样式设计等其他方面的能力。比如变量的命名习惯，`commit` 的提交等。
 
 候选人可以导入一些辅助编程的基础库，比如 TypeScirt, Less, Sass，对于 Vue 也可以导入 vuex, class component 或者 composition api 等库。
 
 ## 笔试流程
+候选人需要将仓库从 [github][github] 或者 [gitee][gitee] `fork` 到自己的账号中，然后在自己的仓库中进行开发。（请务必不要用答案提交 PR，但欢迎 PR 新的题目。）
+
 项目中题目较多， 至少选择**三个题目**进行作答，不能只选择 `JavaScript` 或 `Vue` 的题目。本笔试不限制时间，所以有余力的同学可以多做几题。
 
 最好每开始一个题目的时候都通过一个空 `commit` 来开始你的答题。

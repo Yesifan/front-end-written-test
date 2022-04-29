@@ -30,7 +30,7 @@ const testCase = [
 ]
 
 describe('get supplementary set', () => {
-  test.each(testCase)('test: %#', (a, b, c) => {
+  it.each(testCase)('test: %#', (a, b, c) => {
     const target = getSet(a, b)
     expect(target).toEqual(c)
   })

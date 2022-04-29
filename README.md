@@ -13,6 +13,7 @@
 - `计算相邻单词` - [/lib/getWordNeighors](./src/lib/getWordNeighors/index.js)
 - `深拷贝` - [/lib/deepcopy](./src/lib/deepcopy/index.js)
 - `Promise` - [/lib/promise](./src/lib/promise/index.js)
+- `Extends` - [/lib/extends](./src/lib/extends/index.js)
 
 ### Vue
 使用Vue完成组件的开发, 可以运行 `npm run serve` 进行调试，[App.vue](./src/App.vue) 可以任意修改。
@@ -25,7 +26,8 @@
 运行测试
 ```
 npx jest # 运行所有测试
-npx jest path/to/my-test.js # 运行单个测试
+npx jest path/to/my-test.js # 运行单个测试文件
+jest -t name-of-spec # 运行单个 describe 或 test
 ```
 组件的实现方式多种多样，组件测试不一定适用于所有组件。
 

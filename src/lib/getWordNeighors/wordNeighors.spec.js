@@ -13,7 +13,7 @@ const testCase = [
 ];
 
 describe("world neighors", () => {
-  test.each(testCase)("test: %#", (str, count) => {
+  it.each(testCase)("test: %#", (str, count) => {
     expect(getNeighors(str)).toEqual(count);
   });
 });
